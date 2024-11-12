@@ -8,6 +8,9 @@
     <!--- LOAM -->
     <include file="$(find liorf)/launch/include/module_loam.launch" />
 
+    <!--- savePath -->
+    <!-- <include file="$(find liorf)/launch/include/module_save_path.launch" /> -->
+
     <!--- Robot State TF -->
     <!-- <include file="$(find liorf)/launch/include/module_robot_state_publisher.launch" /> -->
 
