@@ -1,0 +1,9 @@
+<launch>
+    <arg name="project" default="liorf"/>
+
+    <!-- <param name="/liorf/save_path/file_path" type="string" value="/home/mnf/Workspace/test_catkin_ws/src/liorf/data/liorf_path_campus_small_dataset.txt"/> -->
+    <!-- <param name="/liorf/save_path/topic_name" type="string" value="/liorf/mapping/odometry"/> -->
+    
+    <node pkg="$(arg project)" type="$(arg project)_savePath" name="$(arg project)_savePath" output="screen"/>
+    
+</launch>
